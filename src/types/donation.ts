@@ -1,7 +1,6 @@
 interface Prize{
     orderPrice:number,
     targetRoulette:string,
-    targetData:object[],
     orderNick:string,
     orderId:string,
     prize:string,
@@ -12,6 +11,6 @@ interface dataSet{
     percent:number,
     desc:string,
     fontColor?:string,
-    borderColor?:string
+    backgroundColor?:string
 }
 export type {Prize,dataSet}
